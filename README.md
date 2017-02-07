@@ -1,6 +1,7 @@
 # U3 armory - exploiting the AutoRunz
 
 ## Usage
+Log into the USB armory (with NAT configured), clone the project, and run the u3-armory.sh script.
 ```
 git clone https://github.com/securifybv/u3-armory.git
 cd u3-armory
