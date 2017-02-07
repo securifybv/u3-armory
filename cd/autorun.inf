@@ -1,0 +1,26 @@
+[AutoRun] 
+open=LaunchU3.exe -a
+icon=LaunchU3.exe,0 
+
+shell\open\command=LaunchU3.exe -a
+shell\open=@twinui.dll,-1040
+shell=open
+
+shell\opennewwindow\command=LaunchU3.exe -a
+shell\opennewwindow=@shell32.dll,-8517
+shell=opennewwindow
+
+shell\pintohome\command=LaunchU3.exe -a
+shell\pintohome=@shell32.dll,-5386
+shell=pintohome
+
+[Definitions]
+Launchpad=LaunchPad.exe
+Vtype=2
+
+[CopyFiles]
+FileNumber=1
+File1=LaunchPad.zip
+
+[Update]
+URL=
